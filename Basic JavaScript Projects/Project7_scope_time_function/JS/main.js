@@ -1,5 +1,6 @@
-var x = 10;
+var x = 10;//assigning a global variable
 
+//addnumbers# functions serve to display usage of the global variable
 function addNumbers1()
 {
     document.write(20+x+ "<br>");
@@ -13,7 +14,7 @@ function addNumbers2()
 addNumbers1();
 addNumbers2();
 
-function getDate()
+function getDate() //contains conditional statements as well as utilizing the Date() function
 {
     if (new Date().getHours() < 18) 
     {
@@ -25,7 +26,7 @@ function getDate()
     }
 }
 
-function myFunction()
+function myFunction()//utilizing the if statement
 {
     if ((10+10) > 18)
     {
@@ -34,7 +35,7 @@ function myFunction()
     }
 }
 
-function ageFunction()
+function ageFunction()//this function allows active usage of both conditional statements
 {
     age = document.getElementById("age").value;
     if (age >= 18)
@@ -44,14 +45,14 @@ function ageFunction()
 
     else
     {
-        var wait = 18-age;
+        var wait = 18-age; //creating an additional local variable based on age vs voting age
         document.getElementById("vote").innerHTML = "Congrats! You can vote in " + wait + " years!";
 
 
     }
 }
 
-function timeFunction()
+function timeFunction() //utilizing the Date() function and conditional statements to display what time of day it is
 {
     var time = new Date().getHours();
     var reply;
