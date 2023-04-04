@@ -76,7 +76,7 @@ function placeXOrO(squareNumber)
         while (!success)
         {
             //A random number between 0-8 is selected//
-            pickASquare = String(Math.floor(math.random() * 9));
+            pickASquare = String(Math.floor(Math.random() * 9));
             //if the random number returns true it will try again//
 
             if (placeXOrO(pickASquare))
@@ -199,7 +199,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2)
             //this method moves us to a starting point within our line
             c.moveTo(x1,y1);
             //this method indicates the end point in our line
-            c.moveTo(x,y);
+            c.lineTo(x,y);
             //this method sets the width of our line
             c.lineWidth = 10;
             //this method sets the color of our line
