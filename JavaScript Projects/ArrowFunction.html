@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Arrow Function and Some Method!</title>
+    </head>
+    <body>
+        <h1 style="text-align: center; font-weight: bold; color: brown;" id ="displayCar"></h1>
+
+        <!--<script> is placed at the end of the <body> to ensure all the referenced code is properly run prior to the js script being executed-->
+        <script>
+            carBrands = "Nissan, Honda, and FORD!";
+            car = (val) => "These are my fave car brands: " + val;
+            document.getElementById('displayCar').innerHTML = car(carBrands);
+        </script>
+
+    </body>
+</html>
+
+

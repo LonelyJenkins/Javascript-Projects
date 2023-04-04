@@ -1,0 +1,11 @@
+function validateForm()
+{
+    let x = document.forms["contactForm"]["fname"].value;
+    let y = document.forms["contactForm"]["lname"].value;
+
+    if (x=="" || y=="")
+    {
+        alert("Full name must be filled out. Sorry not sorry");
+        return false;
+    }
+}
