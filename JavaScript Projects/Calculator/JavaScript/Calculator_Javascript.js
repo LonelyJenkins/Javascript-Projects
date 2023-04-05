@@ -32,7 +32,7 @@ function Input_Decimal(dot)
 {
     //this ensures that accidental clicking of the decimal point doesn't cause bugs in the operation
     if(Calculator.Wait_Second_Operand === true) return;
-    if(Calculator.Display_Value.includes(dot))
+    if(!Calculator.Display_Value.includes(dot))
     {
         //we are saying that if the display value does not contain a dec point, we want to add to a decimal point
         Calculator.Display_Value += dot;
