@@ -12,4 +12,5 @@ Some projects I made utilizing javascript!
  <br>
  <li><a href="https://github.com/LonelyJenkins/Javascript-Projects/tree/main/JavaScript%20Projects/Calculator">Calculator!</a></li>
  <br>
- <p>A fully functional basic in-browser calculator! Capable of multiplication, division, addition and subtraction on a slick interface!
+ <p>A fully functional basic in-browser calculator! Capable of multiplication, division, addition and subtraction on a slick interface!</p>
+</ul>
